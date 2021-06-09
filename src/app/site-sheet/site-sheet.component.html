@@ -1,0 +1,4 @@
+<div class="backdrop" @fadeInOut *ngIf="show" (click)="close()"></div>
+<div class="content" [class.show]="show">
+  <ng-content></ng-content>
+</div>
